@@ -1,0 +1,28 @@
+h1, p{
+    text-align: center;
+}
+  
+/* .f4{
+  text-align: right;
+}
+
+.l4{
+  text-align: left;
+} */
+
+.l4, .f4{
+  font-size: 13rem;
+  color: grey;
+}
+/* video{
+  /* justify-content: center;
+  align-items: center; */
+  /*top: 50;
+} */
+
+.row1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+

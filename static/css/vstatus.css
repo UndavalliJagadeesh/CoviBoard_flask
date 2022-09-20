@@ -1,0 +1,63 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://db.onlinefonts.com/c/15fbe4ccea5683707815c9aa9cf71a46?family=Comic+Sans+Ms");
+
+.header {
+  background-color: #1d3c45;
+}
+#title {
+  text-shadow: rgb(194, 13, 13);
+  font-size: 75px;
+  color: white;
+}
+
+body {
+  background-color: #408ec6;
+}
+.col-4 {
+  border-radius: 30px;
+  background-color: #7a2048;
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background: #79a7d3;
+  padding: 7% 23%;
+  border-radius: 10px;
+  font-family: cursive;
+}
+.car {
+  margin-top: 5%;
+}
+a#none {
+  padding: 0% 0%;
+  background-color: transparent;
+  color: grey;
+}
+a#none:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}
+
+.fot {
+  margin-top: 75px;
+  background-color: #536994;
+}
+.footer {
+  background-color: rgb(22, 63, 124);
+}
+a#bot:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}
+a#bot1:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}

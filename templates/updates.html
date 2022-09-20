@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CoviBoard | Updates
+    </title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{url_for('static', filename='img/logo16.png')}}"
+    />
+    <meta name="title=" content="COVIBOARD | UPDATES" />
+    <meta
+      name="image"
+      content="{{url_for('static', filename='img/vaccine.png')}}"
+    />
+    <meta
+      name="description"
+      content="One stop for all COVID-19 related information"
+    />
+    <meta name="url" content="https://coviboard.glitch.me/updates.html" />
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/reset.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}" type="text/css" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/updates.css')}}" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title"><center>Updates</center></h1>
+    </header>
+    <div id="hlnk" class="row">
+      <div class="col-4" id="l0">
+        <center>
+          <a href="{{url_for('index')}}"
+            >Home&emsp;<i class="fi-sr-home"></i
+          ></a>
+        </center>
+      </div>
+      <div class="col-4" id="l1">
+        <center>
+          <a href="{{url_for('vstatus')}}"
+            >Vaccination Status&emsp;<i class="fi-sr-syringe"></i
+          ></a>
+        </center>
+      </div>
+      <div class="col-4" id="l2">
+        <center>
+          <a href="{{url_for('contact')}}"
+            >Contact us&emsp;<i class="fi-sr-headset"></i
+          ></a>
+        </center>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col car">
+        <div class="card" style="width: 18rem;">
+          <img
+            src="{{url_for('static', filename='img/ind.jpg')}}"
+            class="card-img-top"
+            alt="India"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              INDIA
+              <p></p>
+              <p></p>
+            </h5>
+            <p class="card-text"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">New Cases : {{ind_new_cases}}</li>
+            <li class="list-group-item">Total Cases : {{ind_total_cases}}</li>
+            <li class="list-group-item">Deceased : {{ind_total_deaths}}</li>
+            <li class="list-group-item">Total Vaccinated : {{ind_vaccinated}}</li>
+            <li><small class="text-muted" >Last updated on {{ind_update}}</small></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col car1">
+        <div class="card" style="width: 16rem;">
+          <img
+            src="{{url_for('static', filename='img/world.jpg')}}"
+            class="card-img-top"
+            alt="World"
+          />
+          <div class="card-body">
+            <h5 class="card-title">WORLD</h5>
+            <p class="card-text"></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">New Cases : {{wrd_new_cases}}</li>
+            <li class="list-group-item">Total Cases : {{wrd_total_cases}}</li>
+            <li class="list-group-item">Deceased : {{wrd_total_deaths}}</li>
+            <li class="list-group-item">Total Vaccinated : {{wrd_vaccinated}}</li>
+            <li><small class="text-muted" >Last updated on {{wrd_update}}</small></li>
+          </ul>
+        </div>
+      </div>
+      <p></p>
+      <hr />
+      <div class="row">
+        <div class="col-7">
+          <div class="card mb-3" style="max-width: 540px; margin-left: 6%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <iframe
+                  src="https://www.youtube.com/embed/j1fwDK01tk8?controls=0"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                ></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">New Variant</h5>
+                  <p class="card-text">
+                    The first case of Delta plus variant of covid-19 - has been
+                    registered in Andhra Pradesh.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Last updated on 6/25/2021 23:18:54</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="card mb-3" style="max-width: 540px; ">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <iframe
+                  src="https://www.youtube.com/embed/vghxqCJJ-ds"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                ></iframe>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Vaccination??</h5>
+                  <p class="card-text">
+                    Is getting vaccinated safe? is vaccine safe? Know from
+                    experts
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Last updated on 6/25/2021 23:35:12</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p></p>
+    <p></p>
+    <div class="row">
+      <div class="col-7">
+        <div class="card mb-3" style="max-width: 540px; margin-left: 6%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <iframe
+                src="https://www.youtube.com/embed/axTq9MUn37E"
+                class="img-fluid rounded-start"
+                alt="..."
+              ></iframe>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">India fights</h5>
+                <p class="card-text">India fights against COVID</p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >Last updated on 6/25/2021 23:49:63</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card mb-3" style="max-width: 540px; ">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <iframe
+                src="https://www.youtube.com/embed/O_Q48p4FGAQ"
+                class="img-fluid rounded-start"
+                alt="..."
+              ></iframe>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">India gets Vaccinated</h5>
+                <p class="card-text">
+                  The vaccination drive begins by giving the first shot to
+                  front-line worker.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted"
+                    >Last updated on 6/26/2021 00:01:12</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footer">
+      <center>
+        <p>
+          This site is designed and maintained by
+          <span style="color: wheat;">Jagadeesh Undavalli</span> a student of
+          Vishnu Institute of Technology
+        </p>
+      </center>
+      <div class="row">
+        <div class="col-1">
+          <a id="bot" target="_blank" href="https://github.com/UndavalliJagadeesh"
+            ><img
+              src="{{url_for('static', filename='img/github.png')}}"
+              alt="github"
+              style="margin-left:60px;"
+          /></a>
+        </div>
+        <div class="col-1">
+          <a id="bot1" target="_blank" href="https://www.linkedin.com/in/jagadeeshundavalli/"
+            ><img
+              src="{{url_for('static', filename='img/linkedin.png')}}"
+              alt="linkedin"
+          /></a>
+        </div>
+        <div class="col-6">
+          <p style="margin-left: 50%;">
+            © 2021, CoviBoard. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

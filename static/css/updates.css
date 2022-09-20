@@ -1,0 +1,55 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css");
+
+#title {
+  text-shadow: rgb(194, 13, 13);
+  font-size: 75px;
+  background-image: url("https://cdn.glitch.com/9bf902c1-5a1a-476b-be5c-f634a17b6a7f%2Fupdate.png?v=1624645314186");
+  color: white;
+}
+
+body {
+  background-color: rgb(203, 206, 241);
+}
+.col-4 {
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Comic Sans MS;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background: #8ec5db;
+  padding: 7% 23%;
+  border-radius: 10px;
+}
+.car {
+  margin-left: 20%;
+  margin-top: 7%;
+  box-shadow: 18rem grey;
+}
+.car1 {
+  margin-left: 2%;
+  margin-top: 7%;
+  box-shadow: 18rem grey;
+}
+.fot {
+  margin-top: 75px;
+  background-color: #536994;
+}
+.footer {
+  background-color: rgb(22, 63, 124);
+}
+a#bot:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}
+a#bot1:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}

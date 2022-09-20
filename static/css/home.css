@@ -1,0 +1,101 @@
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css");
+
+#title {
+  text-shadow: rgb(194, 13, 13);
+  font-size: 75px;
+  background-image: url("https://www.w3schools.com/css/mountain.jpg");
+}
+
+body {
+  background-color: rgb(72, 76, 129);
+}
+.col-3 {
+  border-radius: 30px;
+  background-color: rgb(117, 106, 212);
+  padding: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Comic Sans MS;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  background: #8ec5db;
+  padding: 7% 23%;
+  border-radius: 10px;
+  font-family: cursive;
+}
+#coimg {
+  border-radius: 7px;
+  margin-top: 10%;
+  margin-left: 3%;
+  width: 90%;
+}
+#ncoimg {
+  margin-top: 20%;
+  margin-right: 4%;
+  color: rgb(255, 255, 255);
+}
+code {
+  color: rgb(245, 220, 111);
+}
+.top {
+  background-color: rgb(72, 76, 129);
+}
+.dnd {
+  background-color: darkgray;
+  margin-top: 100px;
+}
+#dos {
+  color: rgb(255, 255, 255);
+  background-color: darkgreen;
+  border-radius: 20px 20px;
+}
+#dont {
+  color: rgb(255, 255, 255);
+  background-color: darkred;
+  border-radius: 20px 20px;
+}
+
+#pre {
+  color: indigo;
+  text-shadow: #49554c;
+}
+.does {
+  height: fit-content;
+  background-color: darkgreen;
+  border-radius: 20px 20px;
+  margin-left: 7%;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+.doen {
+  height: fit-content;
+  background-color: darkred;
+  border-radius: 20px 20px;
+  margin-left: 7%;
+  text-align: center;
+  box-shadow: 10px 10px 5px grey;
+}
+.fntclr {
+  color: rgb(255, 255, 255);
+  font-family: "Brush Script MT", cursive;
+}
+.fot {
+  margin-top: 75px;
+  background-color: #536994;
+}
+footer {
+  background-color: black;
+}
+a#bot:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}
+a#bot1:hover {
+  background-color: transparent;
+  padding: 0% 0%;
+}
