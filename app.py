@@ -3,7 +3,11 @@ from flask import Flask, render_template, abort
 app = Flask(__name__)
 
 @app.route('/')
+folder = os.path.join('static', 'images')
+app.config['UPLOAD_FOLDER'] = folder
+
 def index():
+    pic1 = os.path.join(app.config['UPLOAD_FOLDER'], 'ap.jpg')
     return render_template('index.html')
 
 @app.route('/vstatus')
